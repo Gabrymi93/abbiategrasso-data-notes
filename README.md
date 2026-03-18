@@ -111,3 +111,22 @@ La nota metodologica completa del benchmark e' in:
 
 Il notebook principale puo' leggere un CSV bundled molto piccolo in `data/`,
 cosi' resta leggibile e riusabile anche fuori dal workspace del Lab.
+
+## Convenzione minima
+
+La repo resta volutamente leggera.
+
+- notebook: un notebook per caso o domanda, con nome descrittivo e specifico
+- note: note brevi su domanda guida, fonte, caveat e perimetro
+- usare solo notebook quando basta una lettura esplorativa con codice e grafici
+- usare notebook + nota quando il filone ha gia' un piccolo risultato leggibile
+- evitare naming rigidi o tassonomie pesanti finche' la repo resta piccola
+
+## Dati bundled
+
+Alcuni notebook leggono CSV piccoli versionati in `data/`.
+
+- servono a rendere i notebook piu' leggeri e riproducibili
+- sono sottoinsiemi minimi estratti da fonti o output piu' ricchi
+- non sostituiscono la fonte primaria
+- quando il dato deriva dal Lab, la provenance va esplicitata nella nota del caso
