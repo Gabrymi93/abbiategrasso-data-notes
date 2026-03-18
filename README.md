@@ -61,8 +61,11 @@ Notebook principale:
 Materiali collegati:
 
 - `data/abbiategrasso_benchmark_min.csv`
+- `data/abbiategrasso_suolo_trend.csv`
 - `notes/abbiategrasso-popolazione-consumo-suolo.md`
+- `notes/abbiategrasso-trend-consumo-suolo.md`
 - `notes/abbiategrasso-vs-comuni-vicini.md`
+- `figures/abbiategrasso_suolo_trend.png`
 - `figures/abbiategrasso_vs_comuni_suolo_per_residente.png`
 
 Segnale iniziale:
@@ -71,6 +74,7 @@ Segnale iniziale:
 - il suolo consumato 2024 e' `710,4 ha`
 - il confronto con alcuni comuni vicini mostra Abbiategrasso nella fascia alta per suolo consumato per residente
 - il segnale recente di incremento per residente emerge piu' di quanto ci si aspetterebbe guardando solo lo stock
+- la serie ricostruita 2006-2024 suggerisce che il salto `2023-2024` e' molto piu' netto degli incrementi recenti precedenti
 
 ## Nota metodologica minima
 
