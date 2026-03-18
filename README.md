@@ -130,3 +130,22 @@ Alcuni notebook leggono CSV piccoli versionati in `data/`.
 - sono sottoinsiemi minimi estratti da fonti o output piu' ricchi
 - non sostituiscono la fonte primaria
 - quando il dato deriva dal Lab, la provenance va esplicitata nella nota del caso
+
+## Confine con il Lab
+
+Questa repo resta personale quando il filone e':
+
+- molto locale o legato ad Abbiategrasso e territorio vicino
+- utile come notebook leggero o data note, senza bisogno di pipeline condivise
+- ancora esplorativo o troppo stretto per diventare un caso del Lab
+
+Un filone puo' invece ispirare o migrare verso DataCivicLab quando:
+
+- la domanda smette di essere solo locale e diventa riusabile altrove
+- emerge un pattern che vale anche per altri territori
+- il dato o il metodo meritano un perimetro piu' pubblico, stabile o replicabile
+
+La regola pratica e' semplice:
+
+- qui resta il caso locale
+- nel Lab puo' andare il pattern, la fonte o il metodo, se diventano davvero condivisibili
