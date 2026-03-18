@@ -43,3 +43,26 @@ Partire con un solo caso pilota:
 
 Se un filone diventa riusabile o interessante oltre il livello locale, puo'
 poi migrare o ispirare lavoro dentro DataCivicLab.
+
+## Filone attuale
+
+### Abbiategrasso: popolazione e consumo di suolo
+
+Primo caso pilota gia' impostato nella repo.
+
+Notebook principale:
+
+- `notebooks/abbiategrasso_locale_v1.ipynb`
+
+Materiali collegati:
+
+- `notes/abbiategrasso-popolazione-consumo-suolo.md`
+- `notes/abbiategrasso-vs-comuni-vicini.md`
+- `figures/abbiategrasso_vs_comuni_suolo_per_residente.png`
+
+Segnale iniziale:
+
+- Abbiategrasso ha circa `32.658` residenti
+- il suolo consumato 2024 e' `710,4 ha`
+- il confronto con alcuni comuni vicini mostra Abbiategrasso nella fascia alta per suolo consumato per residente
+- il segnale recente di incremento per residente emerge piu' di quanto ci si aspetterebbe guardando solo lo stock
