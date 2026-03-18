@@ -3,8 +3,7 @@
 Analisi civiche locali, prototipi rapidi e notebook su Abbiategrasso, il
 territorio vicino e dataset pubblici letti in chiave locale.
 
-La repo e' ancora un work in progress, ma ha gia' un primo filone completo e
-leggibile.
+La repo ha gia' due filoni locali leggibili e un formato abbastanza stabile.
 
 Serve a:
 
@@ -78,15 +77,19 @@ Segnale iniziale:
 
 ### Abbiategrasso: redditi IRPEF comunali
 
-Secondo filone locale in avvio.
+Secondo filone locale attivo.
 
 Materiali collegati:
 
 - `data/abbiategrasso_irpef_benchmark_2019_2023.csv`
+- `data/abbiategrasso_irpef_sud_ovest_2019_2023.csv`
 - `notebooks/abbiategrasso_irpef_v1.ipynb`
+- `notebooks/abbiategrasso_irpef_sud_ovest_v1.ipynb`
 - `notes/abbiategrasso-irpef-comunale.md`
+- `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
 - `figures/abbiategrasso_irpef_trend.png`
 - `figures/abbiategrasso_irpef_benchmark_2023.png`
+- `figures/abbiategrasso_irpef_sud_ovest_2023.png`
 
 Segnale iniziale:
 
@@ -94,8 +97,11 @@ Segnale iniziale:
   Abbiategrasso passa da circa `22,9 mila` a `25,4 mila euro`
 - nel benchmark `2023`, Abbiategrasso si colloca sotto Buccinasco e Magenta,
   ma sopra Vigevano, Corsico e Rozzano
+- restringendo il confronto al Sud Ovest milanese, Abbiategrasso scende nel
+  gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
+  sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
 
-## Nota metodologica minima
+## Note metodologiche minime
 
 Il benchmark dei 6 comuni e' volutamente leggero.
 
@@ -103,9 +109,10 @@ Il benchmark dei 6 comuni e' volutamente leggero.
 - il gruppo e' scelto per leggibilita' territoriale, non per matching rigoroso
 - serve a leggere meglio la posizione relativa di Abbiategrasso, non a costruire una classifica definitiva
 
-La nota metodologica completa del benchmark e' in:
+Le note metodologiche principali sono in:
 
 - `notes/abbiategrasso-vs-comuni-vicini.md`
+- `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
 
 ## Riproducibilita'
 
