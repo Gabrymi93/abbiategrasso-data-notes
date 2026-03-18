@@ -66,5 +66,7 @@ lettura semplice:
   ISPRA
 - usa gli incrementi netti disponibili nel file sorgente per tornare indietro
   dal valore `2024`
+- la serie puo' includere anche piccoli incrementi netti negativi, compatibili
+  con casi di riduzione o desigillazione netta
 - per capire le cause del salto recente servirebbero altre fonti o un livello
   territoriale piu' dettagliato
