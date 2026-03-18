@@ -76,6 +76,25 @@ Segnale iniziale:
 - il segnale recente di incremento per residente emerge piu' di quanto ci si aspetterebbe guardando solo lo stock
 - la serie ricostruita 2006-2024 suggerisce che il salto `2023-2024` e' molto piu' netto degli incrementi recenti precedenti
 
+### Abbiategrasso: redditi IRPEF comunali
+
+Secondo filone locale in avvio.
+
+Materiali collegati:
+
+- `data/abbiategrasso_irpef_benchmark_2019_2023.csv`
+- `notebooks/abbiategrasso_irpef_v1.ipynb`
+- `notes/abbiategrasso-irpef-comunale.md`
+- `figures/abbiategrasso_irpef_trend.png`
+- `figures/abbiategrasso_irpef_benchmark_2023.png`
+
+Segnale iniziale:
+
+- tra `2019` e `2023` il reddito imponibile medio per contribuente ad
+  Abbiategrasso passa da circa `22,9 mila` a `25,4 mila euro`
+- nel benchmark `2023`, Abbiategrasso si colloca sotto Buccinasco e Magenta,
+  ma sopra Vigevano, Corsico e Rozzano
+
 ## Nota metodologica minima
 
 Il benchmark dei 6 comuni e' volutamente leggero.
