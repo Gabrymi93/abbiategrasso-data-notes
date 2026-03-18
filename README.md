@@ -3,8 +3,7 @@
 Analisi civiche locali, prototipi rapidi e notebook su Abbiategrasso, il
 territorio vicino e dataset pubblici letti in chiave locale.
 
-La repo e' ancora un work in progress, ma ha gia' un primo filone completo e
-leggibile.
+La repo ha gia' due filoni locali leggibili e un formato abbastanza stabile.
 
 Serve a:
 
@@ -78,7 +77,7 @@ Segnale iniziale:
 
 ### Abbiategrasso: redditi IRPEF comunali
 
-Secondo filone locale in avvio.
+Secondo filone locale attivo.
 
 Materiali collegati:
 
@@ -102,7 +101,7 @@ Segnale iniziale:
   gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
   sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
 
-## Nota metodologica minima
+## Note metodologiche minime
 
 Il benchmark dei 6 comuni e' volutamente leggero.
 
@@ -110,9 +109,10 @@ Il benchmark dei 6 comuni e' volutamente leggero.
 - il gruppo e' scelto per leggibilita' territoriale, non per matching rigoroso
 - serve a leggere meglio la posizione relativa di Abbiategrasso, non a costruire una classifica definitiva
 
-La nota metodologica completa del benchmark e' in:
+Le note metodologiche principali sono in:
 
 - `notes/abbiategrasso-vs-comuni-vicini.md`
+- `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
 
 ## Riproducibilita'
 
