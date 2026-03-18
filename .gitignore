@@ -1,0 +1,6 @@
+figures/*
+!figures/.gitkeep
+exports/
+out/
+__pycache__/
+.ipynb_checkpoints/
