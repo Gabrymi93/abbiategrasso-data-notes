@@ -1,9 +1,11 @@
 # abbiategrasso-data-notes
 
-Repo personale per analisi civiche locali, prototipi rapidi e notebook su
-Abbiategrasso, il territorio vicino e dataset pubblici letti in chiave locale.
+Analisi civiche locali, prototipi rapidi e notebook su Abbiategrasso, il
+territorio vicino e dataset pubblici letti in chiave locale.
 
-Non e' una copia di DataCivicLab.
+La repo e' ancora un work in progress, ma ha gia' un primo filone completo e
+leggibile.
+
 Serve a:
 
 - esplorare filoni piu' stretti o piu' locali
@@ -16,6 +18,7 @@ Serve a:
 - note di lavoro leggere
 - grafici esportati
 - fonti pubbliche usate per il singolo caso
+- piccoli dataset bundled quando servono a rendere i notebook riproducibili
 
 ## Cosa non entra qui
 
@@ -28,6 +31,7 @@ Serve a:
 
 ```text
 abbiategrasso-data-notes/
+  data/
   notebooks/
   notes/
   figures/
@@ -56,6 +60,7 @@ Notebook principale:
 
 Materiali collegati:
 
+- `data/abbiategrasso_benchmark_min.csv`
 - `notes/abbiategrasso-popolazione-consumo-suolo.md`
 - `notes/abbiategrasso-vs-comuni-vicini.md`
 - `figures/abbiategrasso_vs_comuni_suolo_per_residente.png`
@@ -66,3 +71,8 @@ Segnale iniziale:
 - il suolo consumato 2024 e' `710,4 ha`
 - il confronto con alcuni comuni vicini mostra Abbiategrasso nella fascia alta per suolo consumato per residente
 - il segnale recente di incremento per residente emerge piu' di quanto ci si aspetterebbe guardando solo lo stock
+
+## Riproducibilita'
+
+Il notebook principale puo' leggere un CSV bundled molto piccolo in `data/`,
+cosi' resta leggibile e riusabile anche fuori dal workspace del Lab.
