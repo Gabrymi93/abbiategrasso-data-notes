@@ -72,6 +72,18 @@ Segnale iniziale:
 - il confronto con alcuni comuni vicini mostra Abbiategrasso nella fascia alta per suolo consumato per residente
 - il segnale recente di incremento per residente emerge piu' di quanto ci si aspetterebbe guardando solo lo stock
 
+## Nota metodologica minima
+
+Il benchmark dei 6 comuni e' volutamente leggero.
+
+- non e' un confronto statistico o causale
+- il gruppo e' scelto per leggibilita' territoriale, non per matching rigoroso
+- serve a leggere meglio la posizione relativa di Abbiategrasso, non a costruire una classifica definitiva
+
+La nota metodologica completa del benchmark e' in:
+
+- `notes/abbiategrasso-vs-comuni-vicini.md`
+
 ## Riproducibilita'
 
 Il notebook principale puo' leggere un CSV bundled molto piccolo in `data/`,
