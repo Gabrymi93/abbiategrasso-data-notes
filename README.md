@@ -83,10 +83,14 @@ Secondo filone locale in avvio.
 Materiali collegati:
 
 - `data/abbiategrasso_irpef_benchmark_2019_2023.csv`
+- `data/abbiategrasso_irpef_sud_ovest_2019_2023.csv`
 - `notebooks/abbiategrasso_irpef_v1.ipynb`
+- `notebooks/abbiategrasso_irpef_sud_ovest_v1.ipynb`
 - `notes/abbiategrasso-irpef-comunale.md`
+- `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
 - `figures/abbiategrasso_irpef_trend.png`
 - `figures/abbiategrasso_irpef_benchmark_2023.png`
+- `figures/abbiategrasso_irpef_sud_ovest_2023.png`
 
 Segnale iniziale:
 
@@ -94,6 +98,9 @@ Segnale iniziale:
   Abbiategrasso passa da circa `22,9 mila` a `25,4 mila euro`
 - nel benchmark `2023`, Abbiategrasso si colloca sotto Buccinasco e Magenta,
   ma sopra Vigevano, Corsico e Rozzano
+- restringendo il confronto al Sud Ovest milanese, Abbiategrasso scende nel
+  gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
+  sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
 
 ## Nota metodologica minima
 
