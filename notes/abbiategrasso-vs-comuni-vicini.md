@@ -43,6 +43,12 @@ Sul set minimale usato qui:
 - `Abbiategrasso` ha il segnale piu' forte di incremento recente per residente
 - `Corsico` ha una quota di suolo consumato molto alta, ma incremento recente quasi nullo o negativo
 
+Nel grafico esportato:
+
+- `Abbiategrasso` e' evidenziato visivamente
+- accanto a ogni comune compare anche il delta recente per residente, cosi' il
+  confronto non si ferma allo stock
+
 ## Caveat
 
 - non e' un confronto "scientifico" o esaustivo
