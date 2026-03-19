@@ -33,7 +33,7 @@ molto piccolo: `2021` e `2025`, sei comuni, poche macro-categorie leggibili.
 - ad Abbiategrasso le `Imposte proprie` restano la componente principale delle
   entrate correnti sia nel `2021` sia nel `2025`
 - nel `2025` il peso combinato di `Fondi perequativi` e `Trasferimenti
-  correnti` resta comunque rilevante e supera il terzo del totale
+  correnti` resta comunque rilevante e vale circa un quarto del totale
 - nel benchmark `2025`, Abbiategrasso ha una quota di `Imposte proprie` piu'
   bassa di quasi tutto il gruppo, ma non emerge neppure come il comune piu'
   dipendente da `Fondi perequativi` e `Trasferimenti correnti`, perche' pesa di
