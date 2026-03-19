@@ -101,6 +101,16 @@ Segnale iniziale:
   gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
   sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
 
+## Filone successivo candidato
+
+Terzo filone in valutazione:
+
+- `notes/abbiategrasso-finanza-comunale-minimale.md`
+
+La direzione piu' sensata, per ora, e' una lettura molto leggera della finanza
+comunale di Abbiategrasso a partire da SIOPE, senza trasformare la repo
+personale in un duplicato tecnico del Lab.
+
 ## Note metodologiche minime
 
 Il benchmark dei 6 comuni e' volutamente leggero.
