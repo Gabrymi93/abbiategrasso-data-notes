@@ -134,6 +134,7 @@ Il benchmark dei 6 comuni e' volutamente leggero.
 
 Le note metodologiche principali sono in:
 
+- `notes/benchmark-locale-minimo.md`
 - `notes/abbiategrasso-vs-comuni-vicini.md`
 - `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
 
