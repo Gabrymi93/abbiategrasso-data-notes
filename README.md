@@ -101,15 +101,28 @@ Segnale iniziale:
   gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
   sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
 
-## Filone successivo candidato
+### Abbiategrasso: finanza comunale minimale
 
-Terzo filone in valutazione:
+Terzo filone locale attivo.
 
+Materiali collegati:
+
+- `data/abbiategrasso_finanza_minimale_2021_2025.csv`
+- `notebooks/abbiategrasso_finanza_minimale_v1.ipynb`
 - `notes/abbiategrasso-finanza-comunale-minimale.md`
+- `figures/abbiategrasso_finanza_composizione_2021_2025.png`
+- `figures/abbiategrasso_finanza_benchmark_2025.png`
 
-La direzione piu' sensata, per ora, e' una lettura molto leggera della finanza
-comunale di Abbiategrasso a partire da SIOPE, senza trasformare la repo
-personale in un duplicato tecnico del Lab.
+Segnale iniziale:
+
+- ad Abbiategrasso le `Imposte proprie` restano la componente principale delle
+  entrate correnti tra `2021` e `2025`
+- nel `2025`, `Fondi perequativi` e `Trasferimenti correnti` restano comunque
+  una quota non marginale del profilo finanziario locale
+- nel benchmark leggero sui sei comuni, Abbiategrasso combina una quota di
+  `Imposte proprie` piu' bassa di quasi tutto il gruppo con una quota `Altro`
+  piu' ampia, quindi non appare neppure come il caso piu' dipendente da
+  `Fondi perequativi` e `Trasferimenti correnti`
 
 ## Note metodologiche minime
 
