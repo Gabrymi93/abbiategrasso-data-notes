@@ -14,6 +14,8 @@ Che fotografia minima possiamo ottenere su Abbiategrasso incrociando:
 - candidate `ispra-consumo-suolo`
 
 Entrambe le fonti sono gia' materializzate in `dataset-incubator/out/`.
+Il notebook locale usa un estratto minimo derivato da questi output del
+workspace Lab, non una nuova pipeline dentro questa repo.
 
 ## Snapshot iniziale
 

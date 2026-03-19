@@ -11,8 +11,11 @@ benchmark territoriale?
 ## Fonte
 
 - base bundled nella repo: `data/abbiategrasso_irpef_benchmark_2019_2023.csv`
-- origine del dato: `dataciviclab/preanalysis/irpef-comunale-2019-2023`
+- origine del dato: [`dataciviclab/preanalysis/irpef-comunale-2019-2023`](https://github.com/dataciviclab/dataciviclab/tree/main/preanalysis/irpef-comunale-2019-2023)
 - fonte pubblica primaria: MEF / Finanze, dati comunali IRPEF
+
+Il CSV bundled e' un estratto minimo derivato dal lavoro gia' fatto nel Lab e
+serve solo a rendere questo notebook locale leggero e riproducibile.
 
 ## Perimetro minimo
 

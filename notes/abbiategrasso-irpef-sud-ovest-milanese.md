@@ -10,8 +10,11 @@ perimetro piu' stretto del Sud Ovest milanese?
 ## Fonte
 
 - base bundled: `data/abbiategrasso_irpef_sud_ovest_2019_2023.csv`
-- origine del dato: `dataciviclab/preanalysis/irpef-comunale-2019-2023`
+- origine del dato: [`dataciviclab/preanalysis/irpef-comunale-2019-2023`](https://github.com/dataciviclab/dataciviclab/tree/main/preanalysis/irpef-comunale-2019-2023)
 - fonte pubblica primaria: MEF / Finanze, dati comunali IRPEF
+
+Anche qui il CSV bundled e' un estratto minimo derivato dal filone Lab gia'
+esistente, adattato a un confronto locale piu' stretto.
 
 ## Perimetro
 

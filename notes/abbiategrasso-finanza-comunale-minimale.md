@@ -11,7 +11,7 @@ risorse esterne nel confronto con alcuni comuni gia' usati nei filoni locali?
 ## Fonte
 
 - base bundled nella repo: `data/abbiategrasso_finanza_minimale_2021_2025.csv`
-- origine del dato: `siope-comuni/entrate/comuni`
+- origine del dato: [`siope-comuni/entrate/comuni`](https://github.com/dataciviclab/siope-comuni/tree/main/entrate/comuni)
 - fonte pubblica primaria: SIOPE
 
 Il CSV bundled deriva dal mart multi-anno del Lab e mantiene solo un perimetro
