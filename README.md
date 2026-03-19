@@ -160,7 +160,8 @@ Alcuni notebook leggono CSV piccoli versionati in `data/`.
 - servono a rendere i notebook piu' leggeri e riproducibili
 - sono sottoinsiemi minimi estratti da fonti o output piu' ricchi
 - non sostituiscono la fonte primaria
-- quando il dato deriva dal Lab, la provenance va esplicitata nella nota del caso
+- quando il dato deriva dal Lab, di solito basta una riga esplicita nella nota
+  del caso su origine del CSV bundled e filone o repo di provenienza
 
 ## Confine con il Lab
 
