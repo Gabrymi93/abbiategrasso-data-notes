@@ -162,12 +162,13 @@ Alcuni notebook leggono CSV piccoli versionati in `data/`.
 - non sostituiscono la fonte primaria
 - quando il dato deriva dal Lab, di solito basta una riga esplicita nella nota
   del caso su origine del CSV bundled e filone o repo di provenienza
+  ([DataCivicLab](https://github.com/dataciviclab))
 
 Regola pratica sulla provenance:
 
 - se il notebook usa una fonte pubblica letta direttamente, basta nominare la fonte primaria
 - se usa un CSV bundled derivato da output o mart del Lab, la nota del caso deve dire in una riga:
-  - da quale repo o filone arriva
+  - da quale repo o filone di [DataCivicLab](https://github.com/dataciviclab) arriva
   - se il CSV e' un estratto minimo o una rielaborazione leggera
 - non serve appesantire la repo con una provenance lunga se il legame col Lab si puo' spiegare in due righe chiare
 

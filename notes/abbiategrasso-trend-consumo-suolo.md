@@ -10,8 +10,9 @@ si inserisce in un trend piu' lungo?
 La serie e' ricostruita a partire dal file ISPRA `Comuni_2006_2024`.
 
 Il file bundled usato qui non e' una nuova fonte autonoma: e' una rielaborazione
-locale molto leggera del filone Lab su consumo di suolo ISPRA, tenuta piccola
-solo per rendere il notebook riproducibile in questa repo.
+locale molto leggera del filone
+[DataCivicLab](https://github.com/dataciviclab) su consumo di suolo ISPRA,
+tenuta piccola solo per rendere il notebook riproducibile in questa repo.
 
 Punto di partenza:
 
