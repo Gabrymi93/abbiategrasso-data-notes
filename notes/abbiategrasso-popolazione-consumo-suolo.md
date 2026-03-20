@@ -17,6 +17,11 @@ Entrambe le fonti sono gia' materializzate in `dataset-incubator/out/`.
 Il notebook locale usa un estratto minimo derivato da questi output del
 workspace Lab, non una nuova pipeline dentro questa repo.
 
+In pratica, il CSV bundled di questo caso e' una selezione molto piccola
+derivata dal filone [DataCivicLab](https://github.com/dataciviclab) su
+popolazione comunale ISTAT e consumo di suolo ISPRA, ridotta qui al solo
+perimetro utile per Abbiategrasso.
+
 ## Snapshot iniziale
 
 Valori verificati nel workspace:
