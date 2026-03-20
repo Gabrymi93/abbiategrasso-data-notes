@@ -3,7 +3,7 @@
 Analisi civiche locali, prototipi rapidi e notebook su Abbiategrasso, il
 territorio vicino e dataset pubblici letti in chiave locale.
 
-La repo ha gia' due filoni locali leggibili e un formato abbastanza stabile.
+La repo ha quattro filoni locali leggibili e un formato abbastanza stabile.
 
 Serve a:
 
@@ -101,6 +101,31 @@ Segnale iniziale:
   gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
   sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
 
+### Abbiategrasso: raccolta differenziata e costo per abitante
+
+Quarto filone locale attivo.
+
+Materiali collegati:
+
+- `data/abbiategrasso_rifiuti_benchmark_2023.csv`
+- `data/abbiategrasso_rifiuti_trend.csv`
+- `notebooks/abbiategrasso_rifiuti_v1.ipynb`
+- `notes/abbiategrasso-rifiuti-raccolta-differenziata.md`
+- `figures/abbiategrasso_rifiuti_rd_benchmark_2023.png`
+- `figures/abbiategrasso_rifiuti_costo_benchmark_2023.png`
+- `figures/abbiategrasso_rifiuti_trend_2021_2024.png`
+
+Segnale iniziale:
+
+- Abbiategrasso si colloca al `71.4%` di raccolta differenziata nel `2023`, gruppo
+  medio-alto tra 9 comuni del Sud Ovest milanese (4a su 9)
+- il costo del servizio per abitante (`146.76 euro/ab` nel `2023`) e' il piu' alto
+  tra i 6 comuni con dati disponibili nel mart ISPRA
+- il `2022` e' stato l'anno migliore: RD% al picco (`73.7%`) e costo al minimo
+  (`143.66 euro/ab`); da allora i due indicatori hanno divergito
+- nel `2024` la RD% scende al `69.6%` mentre il costo risale a `166 euro/ab`,
+  vicino ai livelli `2021`
+
 ### Abbiategrasso: finanza comunale minimale
 
 Terzo filone locale attivo.
@@ -126,7 +151,7 @@ Segnale iniziale:
 
 ## Note metodologiche minime
 
-Il benchmark dei 6 comuni e' volutamente leggero.
+I benchmark usati nei vari filoni sono volutamente leggeri (6 comuni per i filoni finanziari, fino a 9 per il filone rifiuti).
 
 - non e' un confronto statistico o causale
 - il gruppo e' scelto per leggibilita' territoriale, non per matching rigoroso
