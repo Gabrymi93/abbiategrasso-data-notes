@@ -1,229 +1,83 @@
 # abbiategrasso-data-notes
 
-Analisi civiche locali, prototipi rapidi e notebook su Abbiategrasso, il
-territorio vicino e dataset pubblici letti in chiave locale.
+Domande sui dati pubblici di Abbiategrasso e del territorio vicino.
 
-La repo ha quattro filoni locali leggibili e un formato abbastanza stabile.
+Questa repo raccoglie analisi civiche locali basate su fonti aperte: bilanci comunali,
+rifiuti, redditi, consumo di suolo. I dati vengono da fonti pubbliche nazionali
+(ISTAT, Banca d'Italia, ISPRA, MEF) letti in chiave locale.
 
-Serve a:
+È un progetto personale, non una piattaforma ufficiale. I risultati sono indicativi
+e i limiti sono sempre dichiarati.
 
-- esplorare filoni piu' stretti o piu' locali
-- testare notebook e tagli analitici prima di portarli nel Lab
-- tenere una voce personale sui dati pubblici del territorio
+## Analisi disponibili
 
-## Cosa entra qui
+### Consumo di suolo (2006-2024)
 
-- notebook locali
-- note di lavoro leggere
-- grafici esportati
-- fonti pubbliche usate per il singolo caso
-- piccoli dataset bundled quando servono a rendere i notebook riproducibili
+Abbiategrasso ha consumato 710 ettari di suolo nel 2024, tra i valori più alti
+per abitante nel confronto con i comuni vicini. Il salto 2023-2024 è più netto
+di qualsiasi incremento precedente nella serie dal 2006 a oggi.
 
-## Cosa non entra qui
+Fonte: ISPRA. [Note metodologiche](notes/abbiategrasso-popolazione-consumo-suolo.md)
 
-- doppioni dei repo del Lab
-- contratto tecnico canonico di candidate DI
-- runtime o tooling da mantenere in `toolkit`
-- processi condivisi del core-team
+### Redditi IRPEF (2019-2023)
 
-## Struttura minima
+Tra il 2019 e il 2023 il reddito imponibile medio ad Abbiategrasso è cresciuto
+da 22.900 a 25.400 euro per contribuente. Nel confronto con i comuni del Sud Ovest
+milanese, Abbiategrasso si colloca nella fascia centrale: sopra Corsico e Rozzano,
+sotto Magenta, Corbetta e Gaggiano.
 
-```text
-abbiategrasso-data-notes/
-  data/
-  notebooks/
-  notes/
-  figures/
-```
+Fonte: MEF/Dipartimento delle Finanze. [Note metodologiche](notes/abbiategrasso-irpef-comunale.md)
 
-## Primo uso consigliato
+### Raccolta differenziata e costo del servizio (2021-2024)
 
-Partire con un solo caso pilota:
+La raccolta differenziata è al 69,6% nel 2024, in calo dal picco del 73,7% nel 2022.
+Il costo del servizio rifiuti per abitante, 147 euro nel 2023, è il più alto tra i
+comuni del Sud Ovest milanese con dati disponibili. Dal 2022 in poi i due indicatori
+hanno divergito: meno differenziata, costo più alto.
 
-- un notebook
-- 2-3 grafici
-- una nota breve su domanda, fonte e caveat
+Fonte: ISPRA. [Note metodologiche](notes/abbiategrasso-rifiuti-raccolta-differenziata.md)
 
-Se un filone diventa riusabile o interessante oltre il livello locale, puo'
-poi migrare o ispirare lavoro dentro DataCivicLab.
+### Finanza comunale (2021-2025)
 
-## Filone attuale
+**Entrate:** le imposte proprie (IMU, addizionale IRPEF) restano la componente
+principale delle entrate correnti. La dipendenza da trasferimenti esterni è nella
+media del gruppo di confronto.
 
-### Abbiategrasso: popolazione e consumo di suolo
+**Uscite:** la spesa più alta è per l'acquisto di beni e servizi (49% nel 2025),
+che include i contratti per rifiuti, mense scolastiche, asilo nido e assistenza
+sociale. La quota personale (22,9%) è la più alta tra i sei comuni del benchmark.
+Il totale uscite è cresciuto del 15% in quattro anni (da 25,1 a 28,9 milioni di euro).
 
-Primo caso pilota gia' impostato nella repo.
+Fonte: SIOPE, Banca d'Italia. [Note metodologiche](notes/abbiategrasso-finanza-comunale-minimale.md)
 
-Notebook principale:
+## Suggerisci un'analisi
 
-- `notebooks/abbiategrasso_locale_v1.ipynb`
+Hai una domanda sui dati pubblici di Abbiategrasso?
+[Apri una issue](https://github.com/Gabrymi93/abbiategrasso-data-notes/issues/new) per segnalarla.
 
-Materiali collegati:
+Non serve saper programmare. Basta descrivere la domanda e indicare, se la conosci,
+la fonte pubblica di riferimento.
 
-- `data/abbiategrasso_benchmark_min.csv`
-- `data/abbiategrasso_suolo_trend.csv`
-- `notes/abbiategrasso-popolazione-consumo-suolo.md`
-- `notes/abbiategrasso-trend-consumo-suolo.md`
-- `notes/abbiategrasso-vs-comuni-vicini.md`
-- `figures/abbiategrasso_suolo_trend.png`
-- `figures/abbiategrasso_vs_comuni_suolo_per_residente.png`
+## Sul metodo
 
-Segnale iniziale:
+I confronti usano un gruppo ristretto di comuni vicini (da 6 a 9 secondo il filone),
+scelto per leggibilità territoriale. Non è un'analisi statistica rigorosa: serve a
+leggere meglio la posizione relativa di Abbiategrasso, non a costruire classifiche.
 
-- Abbiategrasso ha circa `32.658` residenti
-- il suolo consumato 2024 e' `710,4 ha`
-- il confronto con alcuni comuni vicini mostra Abbiategrasso nella fascia alta per suolo consumato per residente
-- il segnale recente di incremento per residente emerge piu' di quanto ci si aspetterebbe guardando solo lo stock
-- la serie ricostruita 2006-2024 suggerisce che il salto `2023-2024` e' molto piu' netto degli incrementi recenti precedenti
+I limiti specifici di ogni analisi sono descritti nelle note metodologiche collegate.
 
-### Abbiategrasso: redditi IRPEF comunali
+## Esplorare il codice
 
-Secondo filone locale attivo.
+I notebook si trovano in `notebooks/`, i dati di supporto in `data/`, i grafici in `figures/`.
+Ogni filone ha una nota in `notes/` con domanda guida, fonte, caveat e perimetro.
 
-Materiali collegati:
+I dati in `data/` sono sottoinsiemi minimi estratti da fonti pubbliche o dai mart di
+[DataCivicLab](https://github.com/dataciviclab), e servono a rendere i notebook
+riproducibili senza dipendenze esterne.
 
-- `data/abbiategrasso_irpef_benchmark_2019_2023.csv`
-- `data/abbiategrasso_irpef_sud_ovest_2019_2023.csv`
-- `notebooks/abbiategrasso_irpef_v1.ipynb`
-- `notebooks/abbiategrasso_irpef_sud_ovest_v1.ipynb`
-- `notes/abbiategrasso-irpef-comunale.md`
-- `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
-- `figures/abbiategrasso_irpef_trend.png`
-- `figures/abbiategrasso_irpef_benchmark_2023.png`
-- `figures/abbiategrasso_irpef_sud_ovest_2023.png`
+## Progetto collegato
 
-Segnale iniziale:
-
-- tra `2019` e `2023` il reddito imponibile medio per contribuente ad
-  Abbiategrasso passa da circa `22,9 mila` a `25,4 mila euro`
-- nel benchmark `2023`, Abbiategrasso si colloca sotto Buccinasco e Magenta,
-  ma sopra Vigevano, Corsico e Rozzano
-- restringendo il confronto al Sud Ovest milanese, Abbiategrasso scende nel
-  gruppo centrale-basso: resta sopra Cesano Boscone, Corsico e Rozzano, ma
-  sotto Magenta, Corbetta, Gaggiano e Trezzano sul Naviglio
-
-### Abbiategrasso: raccolta differenziata e costo per abitante
-
-Quarto filone locale attivo.
-
-Materiali collegati:
-
-- `data/abbiategrasso_rifiuti_benchmark_2023.csv`
-- `data/abbiategrasso_rifiuti_trend.csv`
-- `notebooks/abbiategrasso_rifiuti_v1.ipynb`
-- `notes/abbiategrasso-rifiuti-raccolta-differenziata.md`
-- `figures/abbiategrasso_rifiuti_rd_benchmark_2023.png`
-- `figures/abbiategrasso_rifiuti_costo_benchmark_2023.png`
-- `figures/abbiategrasso_rifiuti_trend_2021_2024.png`
-
-Segnale iniziale:
-
-- Abbiategrasso si colloca al `71.4%` di raccolta differenziata nel `2023`, gruppo
-  medio-alto tra 9 comuni del Sud Ovest milanese (4a su 9)
-- il costo del servizio per abitante (`146.76 euro/ab` nel `2023`) e' il piu' alto
-  tra i 6 comuni con dati disponibili nel mart ISPRA
-- il `2022` e' stato l'anno migliore: RD% al picco (`73.7%`) e costo al minimo
-  (`143.66 euro/ab`); da allora i due indicatori hanno divergito
-- nel `2024` la RD% scende al `69.6%` mentre il costo risale a `166 euro/ab`,
-  vicino ai livelli `2021`
-
-### Abbiategrasso: finanza comunale minimale
-
-Terzo filone locale attivo: entrate e uscite.
-
-**Lato entrate** (`abbiategrasso_finanza_minimale_v1.ipynb`):
-
-- `data/abbiategrasso_finanza_minimale_2021_2025.csv`
-- `notebooks/abbiategrasso_finanza_minimale_v1.ipynb`
-- `notes/abbiategrasso-finanza-comunale-minimale.md`
-- `figures/abbiategrasso_finanza_composizione_2021_2025.png`
-- `figures/abbiategrasso_finanza_benchmark_2025.png`
-
-Segnale iniziale (entrate):
-
-- ad Abbiategrasso le `Imposte proprie` restano la componente principale delle
-  entrate correnti tra `2021` e `2025`
-- nel benchmark, quota `Imposte proprie` piu' bassa di quasi tutto il gruppo
-  ma non emerge come il piu' dipendente da fondi esterni
-
-**Lato uscite** (`abbiategrasso_finanza_uscite_v1.ipynb`):
-
-- `data/abbiategrasso_finanza_uscite_2021_2025.csv`
-- `notebooks/abbiategrasso_finanza_uscite_v1.ipynb`
-- `notes/abbiategrasso-finanza-uscite.md`
-- `figures/abbiategrasso_finanza_uscite_composizione_2021_2025.png`
-- `figures/abbiategrasso_finanza_uscite_benchmark_2025.png`
-
-Segnale iniziale (uscite):
-
-- `Acquisto beni e servizi` e' la voce dominante al `49%` nel `2025`
-  (contratti rifiuti, mense, asilo nido, assistenza sociale, verde urbano)
-- `Personale` al `22.9%`: quota piu' alta tra i sei comuni del benchmark
-- `Investimenti` crescono dal `10.6%` al `12.7%` tra `2021` e `2025`
-- totale uscite +15% in quattro anni (`25.1M` -> `28.9M` euro)
-
-## Note metodologiche minime
-
-I benchmark usati nei vari filoni sono volutamente leggeri (6 comuni per i filoni finanziari, fino a 9 per il filone rifiuti).
-
-- non e' un confronto statistico o causale
-- il gruppo e' scelto per leggibilita' territoriale, non per matching rigoroso
-- serve a leggere meglio la posizione relativa di Abbiategrasso, non a costruire una classifica definitiva
-
-Le note metodologiche principali sono in:
-
-- `notes/benchmark-locale-minimo.md`
-- `notes/abbiategrasso-vs-comuni-vicini.md`
-- `notes/abbiategrasso-irpef-sud-ovest-milanese.md`
-
-## Riproducibilita'
-
-Il notebook principale puo' leggere un CSV bundled molto piccolo in `data/`,
-cosi' resta leggibile e riusabile anche fuori dal workspace del Lab.
-
-## Convenzione minima
-
-La repo resta volutamente leggera.
-
-- notebook: un notebook per caso o domanda, con nome descrittivo e specifico
-- note: note brevi su domanda guida, fonte, caveat e perimetro
-- usare solo notebook quando basta una lettura esplorativa con codice e grafici
-- usare notebook + nota quando il filone ha gia' un piccolo risultato leggibile
-- evitare naming rigidi o tassonomie pesanti finche' la repo resta piccola
-
-## Dati bundled
-
-Alcuni notebook leggono CSV piccoli versionati in `data/`.
-
-- servono a rendere i notebook piu' leggeri e riproducibili
-- sono sottoinsiemi minimi estratti da fonti o output piu' ricchi
-- non sostituiscono la fonte primaria
-- quando il dato deriva dal Lab, di solito basta una riga esplicita nella nota
-  del caso su origine del CSV bundled e filone o repo di provenienza
-  ([DataCivicLab](https://github.com/dataciviclab))
-
-Regola pratica sulla provenance:
-
-- se il notebook usa una fonte pubblica letta direttamente, basta nominare la fonte primaria
-- se usa un CSV bundled derivato da output o mart del Lab, la nota del caso deve dire in una riga:
-  - da quale repo o filone di [DataCivicLab](https://github.com/dataciviclab) arriva
-  - se il CSV e' un estratto minimo o una rielaborazione leggera
-- non serve appesantire la repo con una provenance lunga se il legame col Lab si puo' spiegare in due righe chiare
-
-## Confine con il Lab
-
-Questa repo resta personale quando il filone e':
-
-- molto locale o legato ad Abbiategrasso e territorio vicino
-- utile come notebook leggero o data note, senza bisogno di pipeline condivise
-- ancora esplorativo o troppo stretto per diventare un caso del Lab
-
-Un filone puo' invece ispirare o migrare verso DataCivicLab quando:
-
-- la domanda smette di essere solo locale e diventa riusabile altrove
-- emerge un pattern che vale anche per altri territori
-- il dato o il metodo meritano un perimetro piu' pubblico, stabile o replicabile
-
-La regola pratica e' semplice:
-
-- qui resta il caso locale
-- nel Lab puo' andare il pattern, la fonte o il metodo, se diventano davvero condivisibili
+Questa repo fa parte dell'ecosistema [DataCivicLab](https://github.com/dataciviclab),
+un laboratorio civico open source sui dati pubblici italiani. I filoni che nascono
+qui possono ispirare o migrare verso il Lab quando la domanda diventa riusabile
+oltre il contesto locale.
