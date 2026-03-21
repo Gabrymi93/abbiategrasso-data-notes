@@ -1,0 +1,73 @@
+comune,anno,macro_categoria,importo_euro,totale_euro,quota_pct
+Abbiategrasso,2021,Acquisto beni e servizi,12978604.88,25129642.28,51.6
+Abbiategrasso,2021,Personale,5880149.08,25129642.28,23.4
+Abbiategrasso,2021,Investimenti,2651953.13,25129642.28,10.6
+Abbiategrasso,2021,Trasferimenti correnti,2356665.06,25129642.28,9.4
+Abbiategrasso,2021,Altro,894634.28,25129642.28,3.6
+Abbiategrasso,2021,Tributi e imposte,367635.85,25129642.28,1.5
+Abbiategrasso,2025,Acquisto beni e servizi,14159543.72,28886811.05,49.0
+Abbiategrasso,2025,Personale,6614925.73,28886811.05,22.9
+Abbiategrasso,2025,Investimenti,3675168.94,28886811.05,12.7
+Abbiategrasso,2025,Trasferimenti correnti,2628433.92,28886811.05,9.1
+Abbiategrasso,2025,Altro,1370001.99,28886811.05,4.7
+Abbiategrasso,2025,Tributi e imposte,438736.75,28886811.05,1.5
+Buccinasco,2021,Acquisto beni e servizi,14954432.67,26085070.6,57.3
+Buccinasco,2021,Investimenti,4463683.45,26085070.6,17.1
+Buccinasco,2021,Personale,4427107.02,26085070.6,17.0
+Buccinasco,2021,Trasferimenti correnti,1586493.35,26085070.6,6.1
+Buccinasco,2021,Altro,410950.56,26085070.6,1.6
+Buccinasco,2021,Tributi e imposte,242403.55,26085070.6,0.9
+Buccinasco,2025,Acquisto beni e servizi,16802177.53,30625255.32,54.9
+Buccinasco,2025,Investimenti,6464201.99,30625255.32,21.1
+Buccinasco,2025,Personale,5181373.74,30625255.32,16.9
+Buccinasco,2025,Trasferimenti correnti,1719508.52,30625255.32,5.6
+Buccinasco,2025,Altro,302980.28,30625255.32,1.0
+Buccinasco,2025,Tributi e imposte,155013.26,30625255.32,0.5
+Corsico,2021,Acquisto beni e servizi,15654015.2,25812556.66,60.6
+Corsico,2021,Personale,7126278.82,25812556.66,27.6
+Corsico,2021,Investimenti,1390406.41,25812556.66,5.4
+Corsico,2021,Trasferimenti correnti,745412.71,25812556.66,2.9
+Corsico,2021,Altro,465746.26,25812556.66,1.8
+Corsico,2021,Tributi e imposte,430697.26,25812556.66,1.7
+Corsico,2025,Acquisto beni e servizi,20899351.24,43343959.4,48.2
+Corsico,2025,Investimenti,11703388.89,43343959.4,27.0
+Corsico,2025,Personale,7652464.26,43343959.4,17.7
+Corsico,2025,Trasferimenti correnti,1646124.24,43343959.4,3.8
+Corsico,2025,Altro,886177.46,43343959.4,2.0
+Corsico,2025,Tributi e imposte,556453.31,43343959.4,1.3
+Magenta,2021,Acquisto beni e servizi,15676215.86,27388297.2,57.2
+Magenta,2021,Personale,5077275.05,27388297.2,18.5
+Magenta,2021,Trasferimenti correnti,3295355.64,27388297.2,12.0
+Magenta,2021,Investimenti,2323003.02,27388297.2,8.5
+Magenta,2021,Altro,732136.3,27388297.2,2.7
+Magenta,2021,Tributi e imposte,284311.33,27388297.2,1.0
+Magenta,2025,Acquisto beni e servizi,17784020.4,30268040.04,58.8
+Magenta,2025,Personale,5452603.04,30268040.04,18.0
+Magenta,2025,Investimenti,3718377.9,30268040.04,12.3
+Magenta,2025,Trasferimenti correnti,2204626.68,30268040.04,7.3
+Magenta,2025,Altro,787704.18,30268040.04,2.6
+Magenta,2025,Tributi e imposte,320707.84,30268040.04,1.1
+Rozzano,2021,Acquisto beni e servizi,28780436.08,45565005.41,63.2
+Rozzano,2021,Personale,6896812.73,45565005.41,15.1
+Rozzano,2021,Investimenti,5541040.5,45565005.41,12.2
+Rozzano,2021,Altro,2216564.55,45565005.41,4.9
+Rozzano,2021,Trasferimenti correnti,1676425.11,45565005.41,3.7
+Rozzano,2021,Tributi e imposte,453726.44,45565005.41,1.0
+Rozzano,2025,Acquisto beni e servizi,34831260.2,52907486.4,65.8
+Rozzano,2025,Investimenti,7528887.83,52907486.4,14.2
+Rozzano,2025,Personale,7440000.01,52907486.4,14.1
+Rozzano,2025,Trasferimenti correnti,1779233.47,52907486.4,3.4
+Rozzano,2025,Altro,783269.33,52907486.4,1.5
+Rozzano,2025,Tributi e imposte,544835.56,52907486.4,1.0
+Vigevano,2021,Acquisto beni e servizi,33083473.9,56519027.85,58.5
+Vigevano,2021,Personale,11829211.07,56519027.85,20.9
+Vigevano,2021,Trasferimenti correnti,5077803.06,56519027.85,9.0
+Vigevano,2021,Investimenti,4531878.53,56519027.85,8.0
+Vigevano,2021,Altro,1357627.15,56519027.85,2.4
+Vigevano,2021,Tributi e imposte,639034.14,56519027.85,1.1
+Vigevano,2025,Acquisto beni e servizi,41593483.87,73815811.64,56.3
+Vigevano,2025,Investimenti,13044610.15,73815811.64,17.7
+Vigevano,2025,Personale,12973416.7,73815811.64,17.6
+Vigevano,2025,Trasferimenti correnti,4265288.07,73815811.64,5.8
+Vigevano,2025,Altro,1178168.85,73815811.64,1.6
+Vigevano,2025,Tributi e imposte,760844.0,73815811.64,1.0

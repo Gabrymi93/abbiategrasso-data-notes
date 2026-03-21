@@ -128,9 +128,9 @@ Segnale iniziale:
 
 ### Abbiategrasso: finanza comunale minimale
 
-Terzo filone locale attivo.
+Terzo filone locale attivo: entrate e uscite.
 
-Materiali collegati:
+**Lato entrate** (`abbiategrasso_finanza_minimale_v1.ipynb`):
 
 - `data/abbiategrasso_finanza_minimale_2021_2025.csv`
 - `notebooks/abbiategrasso_finanza_minimale_v1.ipynb`
@@ -138,16 +138,28 @@ Materiali collegati:
 - `figures/abbiategrasso_finanza_composizione_2021_2025.png`
 - `figures/abbiategrasso_finanza_benchmark_2025.png`
 
-Segnale iniziale:
+Segnale iniziale (entrate):
 
 - ad Abbiategrasso le `Imposte proprie` restano la componente principale delle
   entrate correnti tra `2021` e `2025`
-- nel `2025`, `Fondi perequativi` e `Trasferimenti correnti` restano comunque
-  una quota non marginale del profilo finanziario locale
-- nel benchmark leggero sui sei comuni, Abbiategrasso combina una quota di
-  `Imposte proprie` piu' bassa di quasi tutto il gruppo con una quota `Altro`
-  piu' ampia, quindi non appare neppure come il caso piu' dipendente da
-  `Fondi perequativi` e `Trasferimenti correnti`
+- nel benchmark, quota `Imposte proprie` piu' bassa di quasi tutto il gruppo
+  ma non emerge come il piu' dipendente da fondi esterni
+
+**Lato uscite** (`abbiategrasso_finanza_uscite_v1.ipynb`):
+
+- `data/abbiategrasso_finanza_uscite_2021_2025.csv`
+- `notebooks/abbiategrasso_finanza_uscite_v1.ipynb`
+- `notes/abbiategrasso-finanza-uscite.md`
+- `figures/abbiategrasso_finanza_uscite_composizione_2021_2025.png`
+- `figures/abbiategrasso_finanza_uscite_benchmark_2025.png`
+
+Segnale iniziale (uscite):
+
+- `Acquisto beni e servizi` e' la voce dominante al `49%` nel `2025`
+  (contratti rifiuti, mense, asilo nido, assistenza sociale, verde urbano)
+- `Personale` al `22.9%`: quota piu' alta tra i sei comuni del benchmark
+- `Investimenti` crescono dal `10.6%` al `12.7%` tra `2021` e `2025`
+- totale uscite +15% in quattro anni (`25.1M` -> `28.9M` euro)
 
 ## Note metodologiche minime
 
